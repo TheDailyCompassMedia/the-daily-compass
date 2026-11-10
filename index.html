@@ -13,242 +13,181 @@
 
   <title>The Daily Compass | Navigate Life. Make Better Choices.</title>
 
-  <link rel="icon" href="compass.svg" type="image/svg+xml">
+  <!-- The Daily Compass Favicon -->
+  <link rel="icon" href="/compass.svg" type="image/svg+xml">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<header class="site-header">
-
-  <a class="brand" href="index.html" aria-label="The Daily Compass home">
-    <img src="compass.svg" alt="" width="38" height="38">
-    <span>
-      <strong>The Daily Compass</strong>
-      <small>Navigate life. Make better choices.</small>
-    </span>
-  </a>
-
-  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-
-  <nav class="nav">
-    <a href="#technology">Technology</a>
-    <a href="#finance">Personal Finance</a>
-    <a href="#wellbeing">Wellbeing</a>
-    <a href="#about">About</a>
-  </nav>
-
-</header>
-
-<main id="home">
-
-  <section class="hero">
-
-    <div class="hero-copy">
-      <p class="eyebrow">A clearer way forward</p>
-
-      <h1>Good information.<br><em>Better everyday choices.</em></h1>
-
-      <p class="hero-text">
-        Practical, easy-to-understand guides for navigating technology,
-        managing money, and looking after your wellbeing — wherever you
-        are in the world.
-      </p>
-
-      <a class="button" href="#explore">
-        Explore the topics <span aria-hidden="true">→</span>
-      </a>
-    </div>
-
-    <div class="hero-art" aria-hidden="true">
-      <div class="sun"></div>
-      <div class="orbit orbit-one"></div>
-      <div class="orbit orbit-two"></div>
-      <div class="compass-mark">✦</div>
-      <span class="art-label label-top">Learn with confidence</span>
-      <span class="art-label label-bottom">Move with purpose</span>
-    </div>
-
-  </section>
-
-  <section class="intro section" id="explore">
-
-    <p class="eyebrow">Find your direction</p>
-
-    <h2>Knowledge for real life.</h2>
-
-    <p class="section-lead">
-      The world changes quickly. We make useful information easier
-      to understand, so you can make informed decisions one step
-      at a time.
-    </p>
-
-  </section>
-
-  <section class="topics section">
-
-    <!-- TECHNOLOGY -->
-
-    <article class="topic-card tech" id="technology">
-
-      <div class="topic-icon" aria-hidden="true">⌘</div>
-
-      <p class="eyebrow">01 / Technology</p>
-
-      <h3>Make technology work for you.</h3>
-
-      <p>
-        Understand useful digital tools, AI, online safety, and the
-        everyday tech that helps life run more smoothly.
-      </p>
-
-      <a class="coming" href="passkeys-explained.html">
-        Read our latest Technology guide: Passkeys →
-      </a>
-
-      <br><br>
-
-      <a class="coming" href="technology-smartphone-privacy.html">
-        Read our first Technology guide →
-      </a>
-
-    </article>
-
-    <!-- PERSONAL FINANCE -->
-
-    <article class="topic-card money" id="finance">
-
-      <div class="topic-icon" aria-hidden="true">↗</div>
-
-      <p class="eyebrow">02 / Personal Finance</p>
-
-      <h3>Build healthier money habits.</h3>
-
-      <p>
-        Explore budgeting, saving, spending decisions, and simple
-        financial concepts — explained in plain language.
-      </p>
-
-      <a class="coming" href="checks-before-sending-money-online.html">
-        Read our latest Personal Finance guide: 7 Checks Before Paying Online →
-      </a>
-
-      <br><br>
-
-      <a class="coming" href="simple-monthly-budget.html">
-        Read our first Personal Finance guide →
-      </a>
-
-    </article>
-
-    <!-- HEALTH AND WELLBEING -->
-
-    <article class="topic-card wellness" id="wellbeing">
-
-      <div class="topic-icon" aria-hidden="true">✳</div>
-
-      <p class="eyebrow">03 / Health &amp; Wellbeing</p>
-
-      <h3>Take care of your everyday wellbeing.</h3>
-
-      <p>
-        Find approachable ideas about sleep, routines, stress management,
-        exercise, and building sustainable healthy habits.
-      </p>
-
-      <a class="coming" href="beginner-strength-training-exercises-at-home.html">
-        Read our latest Health &amp; Wellbeing guide: Strength Training for Beginners →
-      </a>
-
-      <br><br>
-
-      <a class="coming" href="seven-habits-better-sleep.html">
-        Read our first Health &amp; Wellbeing guide →
-      </a>
-
-    </article>
-
-  </section>
-
-  <section class="quote-band">
-
-    <p class="eyebrow">Our approach</p>
-
-    <h2>Clear, useful, and made for everyday life.</h2>
-
-    <p>
-      No unnecessary jargon. No pressure to know it all.
-      Just practical information to help you take your next step.
-    </p>
-
-  </section>
-
-  <section class="about section" id="about">
-
-    <div>
-      <p class="eyebrow">About The Daily Compass</p>
-      <h2>A little more clarity goes a long way.</h2>
-    </div>
-
-    <p>
-      The Daily Compass is an independent digital publication exploring
-      three parts of modern life: technology, personal finance, and health
-      and wellbeing. Our aim is to make complex topics approachable and
-      useful for an international audience. We value clarity, responsible
-      research, and advice that respects the fact that every reader's
-      circumstances are different.
-    </p>
-
-  </section>
-
-  <section class="contact-strip" id="contact">
-
-    <div>
-      <p class="eyebrow">Stay curious</p>
-      <h2>Come back for practical guides and fresh ideas.</h2>
-    </div>
-
-    <p>
-      Explore our latest articles and return for more useful information.
-      The Daily Compass is growing, one helpful guide at a time.
-    </p>
-
-  </section>
-
-</main>
-
-<footer class="footer">
-
-  <a class="brand footer-brand" href="index.html">
-    <img src="compass.svg" alt="" width="32" height="32">
-    <span>
-      <strong>The Daily Compass</strong>
-      <small>Navigate life. Make better choices.</small>
-    </span>
-  </a>
-
-  <p>© <span id="year"></span> The Daily Compass. All rights reserved.</p>
-
-  <p><a href="contact.html">Contact Us</a></p>
-
-  <p><a href="privacy-policy.html">Privacy Policy</a></p>
-
-  <p>
-    Email:
-    <a href="mailto:Pandoranorah2020@gmail.com">
-      Pandoranorah2020@gmail.com
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Daily Compass home">
+      <img src="compass.svg" alt="" width="38" height="38">
+      <span>
+        <strong>The Daily Compass</strong>
+        <small>Navigate life. Make better choices.</small>
+      </span>
     </a>
-  </p>
 
-  <p class="disclaimer">
-    Information on this site is for general educational purposes and is
-    not a substitute for professional medical or financial advice.
-  </p>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
 
-</footer>
+    <nav class="nav">
+      <a href="#technology">Technology</a>
+      <a href="#finance">Personal Finance</a>
+      <a href="#wellbeing">Wellbeing</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
 
-<script src="script.js"></script>
+  <main id="home">
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A clearer way forward</p>
+        <h1>Good information.<br><em>Better everyday choices.</em></h1>
+        <p class="hero-text">
+          Practical, easy-to-understand guides for navigating technology,
+          managing money, and looking after your wellbeing — wherever you
+          are in the world.
+        </p>
+        <a class="button" href="#explore">Explore the topics <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="compass-mark">✦</div>
+        <span class="art-label label-top">Learn with confidence</span>
+        <span class="art-label label-bottom">Move with purpose</span>
+      </div>
+    </section>
+
+    <section class="intro section" id="explore">
+      <p class="eyebrow">Find your direction</p>
+      <h2>Knowledge for real life.</h2>
+      <p class="section-lead">
+        The world changes quickly. We make useful information easier to
+        understand, so you can make informed decisions one step at a time.
+      </p>
+    </section>
+
+    <section class="topics section">
+
+      <article class="topic-card tech" id="technology">
+        <div class="topic-icon" aria-hidden="true">⌘</div>
+        <p class="eyebrow">01 / Technology</p>
+        <h3>Make technology work for you.</h3>
+        <p>
+          Understand useful digital tools, AI, online safety, and the
+          everyday tech that helps life run more smoothly.
+        </p>
+        <a class="coming" href="technology-smartphone-privacy.html">
+          Read our first Technology guide →
+        </a>
+        <a class="coming" href="passkeys-explained.html">
+          Read our latest Technology guide: Passkeys →
+        </a>
+      </article>
+
+      <article class="topic-card money" id="finance">
+        <div class="topic-icon" aria-hidden="true">↗</div>
+        <p class="eyebrow">02 / Personal finance</p>
+        <h3>Build healthier money habits.</h3>
+        <p>
+          Explore budgeting, saving, spending decisions, and simple
+          financial concepts — explained in plain language.
+        </p>
+        <a class="coming" href="simple-monthly-budget.html">
+          Read our first Personal Finance guide →
+        </a>
+      </article>
+
+      <article class="topic-card wellness" id="wellbeing">
+        <div class="topic-icon" aria-hidden="true">✳</div>
+        <p class="eyebrow">03 / Health &amp; wellbeing</p>
+        <h3>Take care of your everyday wellbeing.</h3>
+        <p>
+          Find approachable ideas about sleep, routines, stress management,
+          and building sustainable healthy habits.
+        </p>
+        <a class="coming" href="seven-habits-better-sleep.html">
+          Read our first Health &amp; Wellbeing guide →
+        </a>
+      </article>
+
+    </section>
+
+    <section class="quote-band">
+      <p class="eyebrow">Our approach</p>
+      <h2>Clear, useful, and made for everyday life.</h2>
+      <p>
+        No unnecessary jargon. No pressure to know it all. Just practical
+        information to help you take your next step.
+      </p>
+    </section>
+
+    <section class="about section" id="about">
+      <div>
+        <p class="eyebrow">About The Daily Compass</p>
+        <h2>A little more clarity goes a long way.</h2>
+      </div>
+
+      <p>
+        The Daily Compass is an independent digital publication exploring
+        three parts of modern life: technology, personal finance, and
+        health and wellbeing. Our aim is to make complex topics approachable
+        and useful for an international audience. We value clarity,
+        responsible research, and advice that respects the fact that
+        every reader's circumstances are different.
+      </p>
+    </section>
+
+    <section class="contact-strip" id="contact">
+      <div>
+        <p class="eyebrow">Stay curious</p>
+        <h2>Come back for practical guides and fresh ideas.</h2>
+      </div>
+      <p>
+        Explore our latest articles and return for more useful information.
+        The Daily Compass is growing, one helpful guide at a time.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <a class="brand footer-brand" href="#home">
+      <img src="compass.svg" alt="" width="32" height="32">
+      <span>
+        <strong>The Daily Compass</strong>
+        <small>Navigate life. Make better choices.</small>
+      </span>
+    </a>
+
+    <p>© <span id="year"></span> The Daily Compass. All rights reserved.</p>
+
+    <p><a href="contact.html">Contact Us</a></p>
+
+    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+
+    <p>
+      Email:
+      <a href="mailto:Pandoranorah2020@gmail.com">
+        Pandoranorah2020@gmail.com
+      </a>
+    </p>
+
+    <p class="disclaimer">
+      Information on this site is for general educational purposes and
+      is not a substitute for professional medical or financial advice.
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
-
