@@ -1,21 +1,42 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://compass.dailycompass.workers.dev/</loc>
   </url>
+
   <url>
     <loc>https://compass.dailycompass.workers.dev/technology-smartphone-privacy.html</loc>
   </url>
+
+  <url>
+    <loc>https://compass.dailycompass.workers.dev/passkeys-explained.html</loc>
+  </url>
+
   <url>
     <loc>https://compass.dailycompass.workers.dev/simple-monthly-budget.html</loc>
   </url>
+
+  <url>
+    <loc>https://compass.dailycompass.workers.dev/checks-before-sending-money-online.html</loc>
+  </url>
+
   <url>
     <loc>https://compass.dailycompass.workers.dev/seven-habits-better-sleep.html</loc>
   </url>
+
+  <url>
+    <loc>https://compass.dailycompass.workers.dev/beginner-strength-training-exercises-at-home.html</loc>
+  </url>
+
   <url>
     <loc>https://compass.dailycompass.workers.dev/contact.html</loc>
   </url>
+
   <url>
     <loc>https://compass.dailycompass.workers.dev/privacy-policy.html</loc>
   </url>
+
 </urlset>
