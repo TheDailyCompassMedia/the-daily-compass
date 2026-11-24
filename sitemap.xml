@@ -1,76 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
+xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/</loc>
+    <loc>https://compass.dailycompass.workers.dev/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/deepfakes-ai-scams-how-to-recognise-fakes.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/deepfakes-ai-scams-how-to-recognise-fakes.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/rise-of-humanoid-robots-everyday-life.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/rise-of-humanoid-robots-everyday-life.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/rise-of-ai-agents-future-of-work.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/rise-of-ai-agents-future-of-work.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/passkeys-explained.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/passkeys-explained.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/technology-smartphone-privacy.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/technology-smartphone-privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/simple-monthly-budget.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/simple-monthly-budget.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/checks-before-sending-money-online.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/checks-before-sending-money-online.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/seven-habits-better-sleep.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/seven-habits-better-sleep.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/beginner-strength-training-exercises-at-home.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/beginner-strength-training-exercises-at-home.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/contact.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/the-wealth-gap-high-income-financial-freedom.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://compass.dailycompass.workers.dev/contact.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://thedailycompassmedia.github.io/the-daily-compass/privacy-policy.html</loc>
+    <loc>https://compass.dailycompass.workers.dev/privacy-policy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
 </urlset>
+
